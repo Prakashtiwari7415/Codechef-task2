@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+/*.body{
+    width:100vw;
+    height:100vh;
+    background-color: #e9e9eb;
+}*/
+
+.container{
+    margin: 30px;
+    margin-left: 9vw;
+
+}
+.b{
+    display: flex;
+}
+.b2{
+    color: #404056;
+    margin-left: 10px;
+}
+.con1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img{
+    
+    height:64vh;
+    width: 30vw;
+    border-radius: 20px;
+    transition: transform 0.4s ease-in-out;
+    filter: sepia(1%);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+.img:hover {
+  transform: scale(1.03); /* scale the image up on hover */
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4); 
+}
+
+  .co1 {
+    position: relative;
+    bottom: 370px;
+    margin-left: 30px;
+    width:25vw;
+
+  }
+  .deep{
+    margin-top: 10px;
+    
+  }
+  .app{
+    color: #404056;
+  }
+  .stay{
+    margin-top: 10px;
+    color: #242427;
+  }
+  .box1{
+    margin-right: 10px;
+  }
+
+
+.footer{
+  margin: 15px;
+  padding: 15px;
+  margin-left: 95px;
+  margin-right: 65px;
+ /* background-color: #f5f5f5;*/
+  
+  
+}
+.footer1{
+  margin: 15px;
+  font-size: 13px;
+  margin-left: 20px;
+  color: #404056;
+
+
+}
+.footer2{
+ background-color: #d3d3d5;
+  width: 80vw;
+  height: 2px;
+  margin-left: 15px;
+  border-radius: 2px;
+  margin: 15px;
+  
+
+
+}
+.footer4{
+  display: flex;
+  margin: 15px;
+  padding: 15px;
+  justify-content: space-between;
+  text-decoration: none;
+  text-decoration-line: none;
+
+}
+.footer5{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  text-decoration-line: none;
+  
+
+}
+.line{
+  text-decoration: none;
+  text-decoration-line: none;
+  color: #3c3c64;
+  font-size: 15px;
+}
+.footer6{
+  color: #36364c;
+  font-size: 15px;
+  margin: 20px;
+}
+.footer7{
+  display: flex;
+  color: #3a3a55;
+  font-size: 15px;
+  align-items: center;
+  flex-direction: row;
+  margin: 15px;
+
+}
+.line1{
+  text-decoration: none;
+  text-decoration-line: none;
+  color: #292931;
+  font-size: 15px; 
+  margin-left: 15px;
+
+}
+.img {
+  transform: translateX(-100%);
+  animation: slideIn 2s;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.img {
+  transform: rotate(0deg);
+  animation: rotate 2s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.img {
+  transform: translateY(0);
+  animation: bounce 2s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
